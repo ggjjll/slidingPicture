@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <title>一路上有你</title>
+    <link href="css/init.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <header>
+        <img id="logo" src="img/logo.png" />
+    </header>
+    <div id="scoreDiv">
+        <span id="scoreTitle">SCORE:</span>
+        <span id="scoreNum">100</span>
+    </div>
+    <article id="checkerboard">
+        <div class="fixedBox" style="margin-left: -3px;margin-top: -3px"></div>
+        <div class="fixedBox" style="margin-top: -3px"></div>
+        <div class="fixedBox" style="margin-top: -3px"></div>
+
+        <div class="fixedBox" style="margin-left: -3px"></div>
+        <div class="fixedBox"></div>
+        <div class="fixedBox"></div>
+
+        <div class="fixedBox" style="margin-left: -3px"></div>
+        <div class="fixedBox"></div>
+        <div class="fixedBox"></div>
+
+        <img src="img/image_01.png" id="img1" class="picture" />
+        <img src="img/image_02.png" id="img2" class="picture" />
+        <img src="img/image_03.png" id="img3" class="picture" />
+        <img src="img/image_04.png" id="img4" class="picture" />
+        <img src="img/image_05.png" id="img5" class="picture" />
+        <img src="img/image_06.png" id="img6" class="picture" />
+        <img src="img/image_07.png" id="img7" class="picture" />
+        <img src="img/image_08.png" id="img8" class="picture" />
+        <img src="img/image_09.png" id="img9" class="picture" />
+    </article>
+
+    <img id="isOpen" src="img/isOpen1.png">
+    <div id="startGame">开始游戏</div>
+
+    <audio id="bgm" loop>
+        <source src="raw/bgm.mp3">
+        <source src="raw/bgm.ogg">
+        <source src="raw/bgm.wav">
+    </audio>
+
+    <audio id="isOk">
+        <source src="raw/ok.mp3">
+        <source src="raw/ok.ogg">
+        <source src="raw/ok.wav">
+    </audio>
+
+    <audio id="isWin">
+        <source src="raw/win.mp3">
+        <source src="raw/win.ogg">
+        <source src="raw/win.wav">
+    </audio>
+
+</body>
+
+<script type="text/javascript" src="js/touchslide.js"></script>
+<script type="text/javascript" src="js/animation.js"></script>
+<script type="text/javascript" src="js/game.js"></script>
+</html>

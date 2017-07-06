@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+body{
+    background-size: 100% 100%;
+    overflow: hidden;
+    background-image: url("../img/bgi.png");
+    font-family: "微软雅黑","Adobe Arabic";
+
+    cursor: hand;
+}
+header{
+    width: 100%;
+    height: 9%;
+    display: block;
+    margin: 5% auto 0 auto;
+}
+#logo{
+    height: 85%;
+    display: block;
+    margin: auto;
+}
+#scoreDiv{
+    height: 5vh;
+    margin: 5% auto 0 auto;
+    line-height: 5vh;
+    font-size: 17pt;
+    text-align: center;
+}
+#checkerboard{
+    margin: 5% auto 0 auto;
+    width: 90vw;
+    height: 90vw;
+    background-color: rgba(255,255,255,0.3);
+    display: block;
+    border-radius: 20px;
+    position: relative;
+}
+.fixedBox{
+    position: relative;
+    top: 5%;
+    left: 5%;
+    width: 30%;
+    height: 30%;
+    float: left;
+    border: solid #e5e5e5 1px;
+    display: inline-block;
+    text-align: center;
+}
+.picture{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+#startGame{
+    position: absolute;
+    bottom: 10px;
+    width: 38%;
+    left: 32%;
+    font-size: 18pt;
+    text-align: center;
+    color: #fff;
+    background-color: #825943;
+    padding: 5px;
+    margin-left: -10px;
+    border-radius: 10px;
+    box-shadow: #000 0 0 10px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+#startGame:active{
+    background-color: #76513D;
+    box-shadow: #000 0 0 4px;
+}
+#isOpen{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 5px;
+    top: 5px;
+}
